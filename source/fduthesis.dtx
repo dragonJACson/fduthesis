@@ -1118,7 +1118,7 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %^^A+
 % \begin{function}[rEXP,updated=2019-03-05]{style/cjk-font}
 %   \begin{fdusyntax}[emph={[1]cjk-font}]
-%     cjk-font = (*<adobe|(fandol)|founder|mac|sinotype|sourcehan|windows|none>*)
+%     cjk-font = (*<adobe|(fandol)|founder|mac|sinotype|sourcehanotc|sourcehanotf|windows|none>*)
 %   \end{fdusyntax}
 %^^A-
 %   设置中文字体。具体配置见表~\ref{tab:cjk-font}。
@@ -1136,20 +1136,22 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %     \toprule
 %       & \strong{正文字体（宋体）} & \strong{无衬线字体（黑体）} & \strong{等宽字体（仿宋）} \\
 %     \midrule
-%       \multirow{2}*{|adobe|}     & Adobe 宋体          & Adobe  黑体        & Adobe  仿宋        \\
-%                                  & Adobe Song Std      & Adobe Heiti Std    & Adobe Fangsong Std \\
-%       \multirow{2}*{|fandol|}    & Fandol 宋体         & Fandol 黑体        & Fandol 仿宋        \\
-%                                  & FandolSong          & FandolHei          & FandolFang         \\
-%       \multirow{2}*{|founder|}   & 方正书宋            & 方正黑体           & 方正仿宋           \\
-%                                  & FZShuSong-Z01       & FZHei-B01          & FZFangSong-Z02     \\
-%       \multirow{2}*{|mac|}       & （华文）宋体-简     & （华文）黑体-简    & 华文仿宋           \\
-%                                  & Songti SC           & Heiti SC           & STFangsong         \\
-%       \multirow{2}*{|sinotype|}  & 华文宋体            & 华文黑体           & 华文仿宋           \\
-%                                  & STSong              & STHeiti            & STFangsong         \\
-%       \multirow{2}*{|sourcehan|} & 思源宋体            & 思源黑体           & ---                \\
-%                                  & Source Han Serif SC & Source Han Sans SC & ---                \\
-%       \multirow{2}*{|windows|}   & （中易）宋体        & （中易）黑体       & （中易）仿宋       \\
-%                                  & SimSun              & SimHei             & FangSong           \\
+%       \multirow{2}*{|adobe|}        & Adobe 宋体          & Adobe  黑体        & Adobe  仿宋        \\
+%                                     & Adobe Song Std      & Adobe Heiti Std    & Adobe Fangsong Std \\
+%       \multirow{2}*{|fandol|}       & Fandol 宋体         & Fandol 黑体        & Fandol 仿宋        \\
+%                                     & FandolSong          & FandolHei          & FandolFang         \\
+%       \multirow{2}*{|founder|}      & 方正书宋            & 方正黑体           & 方正仿宋           \\
+%                                     & FZShuSong-Z01       & FZHei-B01          & FZFangSong-Z02     \\
+%       \multirow{2}*{|mac|}          & （华文）宋体-简     & （华文）黑体-简    & 华文仿宋           \\
+%                                     & Songti SC           & Heiti SC           & STFangsong         \\
+%       \multirow{2}*{|sinotype|}     & 华文宋体            & 华文黑体           & 华文仿宋           \\
+%                                     & STSong              & STHeiti            & STFangsong         \\
+%       \multirow{2}*{|sourcehanotc|} & 思源宋体            & 思源黑体           & ---                \\
+%                                     & Source Han Serif SC & Source Han Sans SC & ---                \\
+%       \multirow{2}*{|sourcehanotf|} & 思源宋体            & 思源黑体           & ---                \\
+%                                     & Source Han Serif CN & Source Han Sans CN & ---                \\
+%       \multirow{2}*{|windows|}      & （中易）宋体        & （中易）黑体       & （中易）仿宋       \\
+%                                     & SimSun              & SimHei             & FangSong           \\
 %     \bottomrule
 %   \end{tabular}
 % \end{table}
@@ -1161,13 +1163,14 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %^^A!     \toprule
 %^^A!       & \strong{Roman (song)} & \strong{Sans-serif (hei)} & \strong{Monospaced (fang)} \\
 %^^A!     \midrule
-%^^A!       |adobe|     & Adobe Song Std      & Adobe Heiti Std    & Adobe Fangsong Std \\
-%^^A!       |fandol|    & FandolSong          & FandolHei          & FandolFang         \\
-%^^A!       |founder|   & FZShuSong-Z01       & FZHei-B01          & FZFangSong-Z02     \\
-%^^A!       |mac|       & Songti SC           & Heiti SC           & STFangsong         \\
-%^^A!       |sinotype|  & STSong              & STHeiti            & STFangsong         \\
-%^^A!       |sourcehan| & Source Han Serif SC & Source Han Sans SC & ---                \\
-%^^A!       |windows|   & SimSun              & SimHei             & FangSong           \\
+%^^A!       |adobe|        & Adobe Song Std      & Adobe Heiti Std    & Adobe Fangsong Std \\
+%^^A!       |fandol|       & FandolSong          & FandolHei          & FandolFang         \\
+%^^A!       |founder|      & FZShuSong-Z01       & FZHei-B01          & FZFangSong-Z02     \\
+%^^A!       |mac|          & Songti SC           & Heiti SC           & STFangsong         \\
+%^^A!       |sinotype|     & STSong              & STHeiti            & STFangsong         \\
+%^^A!       |sourcehanotc| & Source Han Serif SC & Source Han Sans SC & ---                \\
+%^^A!       |sourcehanotf| & Source Han Serif CN & Source Han Sans CN & ---                \\
+%^^A!       |windows|      & SimSun              & SimHei             & FangSong           \\
 %^^A!     \bottomrule
 %^^A!   \end{tabular}
 %^^A! \end{table}
@@ -1642,6 +1645,20 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %^^A!     supervisor = (*\marg{name}*)
 %^^A!   \end{fdusyntax}
 %^^A!   Supervisor's name.
+%^^A! \end{function}
+%^^A!
+%
+% \begin{function}{info/research_direction}
+%   \begin{fdusyntax}[emph={[1]research_direction}]
+%     research_direction = (*\marg{名称}*)
+%   \end{fdusyntax}
+%   研究方向。
+% \end{function}
+%^^A! \begin{function}{info/research_direction}
+%^^A!   \begin{fdusyntax}[emph={[1]research_direction}]
+%^^A!     research_direction = (*\marg{name}*)
+%^^A!   \end{fdusyntax}
+%^^A!   Research_direction's name.
 %^^A! \end{function}
 %^^A!
 %
@@ -3072,7 +3089,7 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 \keys_define:nn { fdu / style }
   {
     cjk-font .choices:nn =
-      { adobe, fandol, founder, mac, sinotype, sourcehan, windows, none }
+      { adobe, fandol, founder, mac, sinotype, sourcehanotc, sourcehanotf, windows, none }
       { \tl_set_eq:NN \g_@@_cjk_fontset_tl \l_keys_choice_tl }
   }
 %    \end{macrocode}
@@ -3555,10 +3572,10 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %    \end{macrocode}
 % \end{macro}
 %
-% \begin{macro}{\@@_load_cjk_font_sourcehan:}
+% \begin{macro}{\@@_load_cjk_font_sourcehanotc:}
 % 思源宋体、思源黑体。由于没有对应的楷体和仿宋，这里直接给出警告。
 %    \begin{macrocode}
-\cs_new_protected:Npn \@@_load_cjk_font_sourcehan:
+\cs_new_protected:Npn \@@_load_cjk_font_sourcehanotc:
   {
     \@@_setCJKmainfont:nn { SourceHanSerifSC }
       {
@@ -3567,17 +3584,43 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
         ItalicFont     = *-Regular,
         BoldItalicFont = *-Bold
       }
-    \@@_setCJKsansfont:nn { SourceHanSansSC  }
+    \@@_setCJKsansfont:nn { SourceHanSansSC }
       {
         UprightFont    = *-Regular,
         BoldFont       = *-Bold,
         ItalicFont     = *-Regular,
         BoldItalicFont = *-Bold
       }
-    \@@_warning:n { source-han }
+    \@@_warning:n { source-han-otc }
   }
-\@@_msg_new:nn { source-han }
+\@@_msg_new:nn { source-han-otc }
   { Font~ set~ `sourcehan'~ does~ not~ contain~ kaiti~ and~ fangsong. }
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@@_load_cjk_font_sourcehanotf:}
+% 思源宋体、思源黑体。由于没有对应的楷体和仿宋，这里直接给出警告。
+%    \begin{macrocode}
+  \cs_new_protected:Npn \@@_load_cjk_font_sourcehanotf:
+    {
+      \@@_setCJKmainfont:nn { SourceHanSerifCN }
+        {
+          UprightFont    = *-Regular,
+          BoldFont       = *-Bold,
+          ItalicFont     = *-Regular,
+          BoldItalicFont = *-Bold
+        }
+      \@@_setCJKsansfont:nn { SourceHanSansCN }
+        {
+          UprightFont    = *-Regular,
+          BoldFont       = *-Bold,
+          ItalicFont     = *-Regular,
+          BoldItalicFont = *-Bold
+        }
+      \@@_warning:n { source-han-otf }
+    }
+  \@@_msg_new:nn { source-han-otf }
+    { Font~ set~ `sourcehan'~ does~ not~ contain~ kaiti~ and~ fangsong. }
 %    \end{macrocode}
 % \end{macro}
 %
@@ -4430,6 +4473,8 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %   \l_@@_info_supervisor_tl,
 %   \l_@@_info_department_tl,
 %   \l_@@_info_major_tl,
+%   \l_@@_info_research_direction_tl,
+%   \l_@@_info_group_id_tl,
 %   \l_@@_info_student_id_tl,
 %   \l_@@_info_school_id_tl,
 %   \l_@@_info_clc_tl,
@@ -4439,8 +4484,8 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %    \begin{macrocode}
 \clist_map_inline:nn
   {
-    title, date, author, supervisor, department, major, student_id,
-    school_id, clc
+    title, date, author, supervisor, department, major,
+    research_direction, group_id, student_id, school_id, clc
   }
   { \tl_new:c { l_@@_info_ #1 _tl } }
 \clist_new:N \l_@@_info_instructors_clist
@@ -4453,11 +4498,12 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %   \l_@@_info_supervisor_en_tl,
 %   \l_@@_info_department_en_tl,
 %   \l_@@_info_major_en_tl,
+%   \l_@@_info_research_direction_en_tl,
 %   \l_@@_info_keywords_en_clist}
 % 对应的英文字段。
 %    \begin{macrocode}
 \clist_map_inline:nn
-  { title, author, supervisor, department, major }
+  { title, author, supervisor, research_direction, department, major }
   { \tl_new:c { l_@@_info_ #1 _en_tl } }
 \clist_new:N \l_@@_info_keywords_en_clist
 %    \end{macrocode}
@@ -4518,6 +4564,14 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %    \end{macrocode}
 % \end{macro}
 %
+% \begin{macro}{info/research_direction,info/research_direction*}
+% 研究方向。
+%    \begin{macrocode}
+    research_direction  .tl_set:N    = \l_@@_info_research_direction_tl,
+%   research_direction* .tl_set:N    = \l_@@_info_research_direction_en_tl,
+%    \end{macrocode}
+% \end{macro}
+%
 % \begin{macro}{info/instructors}
 % 指导小组成员。
 %    \begin{macrocode}
@@ -4538,6 +4592,13 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %    \begin{macrocode}
     major       .tl_set:N    = \l_@@_info_major_tl,
 %   major*      .tl_set:N    = \l_@@_info_major_en_tl,
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{info/group-id}
+% 分类号。
+%    \begin{macrocode}
+    group-id    .tl_set:N    = \l_@@_info_group_id_tl,
 %    \end{macrocode}
 % \end{macro}
 %
@@ -4772,8 +4833,10 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %    \begin{macrocode}
 \cs_new_protected:Npn \@@_cover_id:
   {
-    \@@_fixed_width_box:nn { 120 pt }
+    \@@_fixed_width_box:nn { 160 pt }
       {
+        \@@_cover_id_aux:n { group_id }
+        \@@_cover_id_aux:n { school_id } \par
         \bool_if:NT \l_@@_secret_bool
           {
             \group_begin:
@@ -4782,9 +4845,7 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
               \c_@@_name_secret_star_tl
               \l_@@_info_secret_year_tl
             \group_end:
-            \par
           }
-        \@@_cover_id_aux:n { school_id  } \par
         \@@_cover_id_aux:n { student_id }
       }
 %    \end{macrocode}
@@ -4861,7 +4922,7 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 \cs_new_protected:Npn \@@_cover_info:
   {
     \begin{minipage} [ c ] { \textwidth }
-      \centering \zihao { 4 }
+      \centering \zihao { 4 } \bfseries
 %    \end{macrocode}
 % 读取左侧名称字段。
 %    \begin{macrocode}
@@ -4869,8 +4930,9 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
         {
           \c_@@_name_department_tl,
           \c_@@_name_major_tl,
-          \c_@@_name_author_tl,
+          \c_@@_name_research_direction,
           \c_@@_name_supervisor_tl,
+          \c_@@_name_author_tl,
           \c_@@_name_date_tl,
         }
 %    \end{macrocode}
@@ -4879,11 +4941,12 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %    \begin{macrocode}
       \clist_set:Nx \l_@@_tmpb_clist
         {
-          { \l_@@_info_department_tl },
-          { \l_@@_info_major_tl      },
-          { \l_@@_info_author_tl     },
-          { \l_@@_info_supervisor_tl },
-          { \l_@@_info_date_tl       }
+          { \l_@@_info_department_tl      },
+          { \l_@@_info_major_tl           },
+          { \l_@@_info_research_direction },
+          { \l_@@_info_supervisor_tl      },
+          { \l_@@_info_author_tl          },
+          { \l_@@_info_date_tl            }
         }
       \@@_get_max_text_width:NN \l_@@_tmpb_dim \l_@@_tmpb_clist
 %    \end{macrocode}
@@ -5911,14 +5974,14 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
     style   / font-size       = -4,
 %<class>    style   / fullwidth-stop  = false,
     style   / auto-make-cover = true,
-    style   / logo            = { fudan-name.pdf },
-    style   / logo-size       = { 0.5 \textwidth },
+    style   / logo            = { ecnu_logo_black.pdf },
+    style   / logo-size       = { 0.6 \textwidth },
     style   / hyperlink       = color,
     style   / hyperlink-color = default,
     style   / bib-style       = numerical,
     info    / degree          = academic,
     info    / secret-level    = none,
-    info    / school-id       = { 10246 },
+    info    / school-id       = { 10269 },
     info    / date            = { \zhtoday },
 %<class>    theorem / header-font     = { \sffamily },
 %<class-en>    theorem / header-font     = { \bfseries \upshape },
@@ -5988,9 +6051,9 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %   \c_@@_name_en_tl}
 % 学校名称。
 %    \begin{macrocode}
-\tl_const:Nn \c_@@_name_simp_tl { 复旦大学          }
-\tl_const:Nn \c_@@_name_trad_tl { 復旦大學          }
-\tl_const:Nn \c_@@_name_en_tl   { Fudan~ University }
+\tl_const:Nn \c_@@_name_simp_tl { 华东师范大学          }
+\tl_const:Nn \c_@@_name_trad_tl { 華東師範大學          }
+\tl_const:Nn \c_@@_name_en_tl   { East~ China~ Normal~ University }
 %    \end{macrocode}
 % \end{variable}
 %
@@ -6106,26 +6169,28 @@ Copyright (C) 2017&ndash;2021 by Xiangdong Zeng <xdzeng96@gmail.com>.
 %    \begin{macrocode}
 \clist_map_inline:nn
   {
-    { secret_level    } { 密 \qquad 级                  },
-    { secret_star     } { \textrm { \bigstar }          },
-    { school_id       } { 学校代码                      },
-    { student_id      } { 学 \qquad 号                  },
-    { department      } { 院系                          },
-    { major           } { 专业                          },
-    { author          } { 姓名                          },
-    { supervisor      } { 指导教师                      },
-    { date            } { 完成日期                      },
-    { instructors     } { 指导小组成员                  },
-    { author_sign     } { 作者签名                      },
-    { supervisor_sign } { 导师签名                      },
-    { sign_date       } { 日期                          },
-    { toc             } { 目 \quad 录                   },
-    { lof             } { 插图目录                      },
-    { lot             } { 表格目录                      },
-    { bib_en          } { Bibliography                  },
-    { pdf_creator     } { LaTeX~ with~ fduthesis~ class },
-    { orig_decl       } { \c_@@_name_simp_tl \\ 学位论文独创性声明   },
-    { auth_decl       } { \c_@@_name_simp_tl \\ 学位论文使用授权声明 }
+    { secret_level       } { 密 \qquad 级                  },
+    { secret_star        } { \textrm { \bigstar }          },
+    { group_id           } { 分类号                        },
+    { school_id          } { 学校代码                      },
+    { student_id         } { 学 \qquad 号                  },
+    { department         } { 院系                          },
+    { major              } { 专业                          },
+    { author             } { 学位申请人                    },
+    { research_direction } { 研究方向                      },
+    { supervisor         } { 指导教师                      },
+    { date               } { 完成日期                      },
+    { instructors        } { 指导小组成员                  },
+    { author_sign        } { 作者签名                      },
+    { supervisor_sign    } { 导师签名                      },
+    { sign_date          } { 日期                          },
+    { toc                } { 目 \quad 录                   },
+    { lof                } { 插图目录                      },
+    { lot                } { 表格目录                      },
+    { bib_en             } { Bibliography                  },
+    { pdf_creator        } { LaTeX~ with~ fduthesis~ class },
+    { orig_decl          } { \c_@@_name_simp_tl \\ 学位论文独创性声明   },
+    { auth_decl          } { \c_@@_name_simp_tl \\ 学位论文使用授权声明 }
   }
   { \@@_define_name:nn #1 }
 \clist_map_inline:nn
